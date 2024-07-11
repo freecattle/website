@@ -1,15 +1,12 @@
-# Ignore system and config files
 .dockerignore
 .git
 .gitignore
 README.md
 .vscode
 
-# Ignore log and cache files
 *.log
 .cache
 
-# Ignore local development environment
 node_modules/
 local/
 dist/
@@ -18,11 +15,8 @@ dist/
 *.env.test.local
 *.env.production.local
 
-# Ignore SvelteKit build output
 .svelte-kit/
 
-# Ignore GitHub Actions workflow files
 .github
 
-# Ignore Dockerfile
 Dockerfile
