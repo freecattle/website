@@ -5,34 +5,42 @@
 <footer
 	class="flex flex-col items-center justify-between min-h-28 py-4 px-6 md:flex-row md:min-h-20 md:px-16"
 >
-	<div class="mb-4 text-base text-white scale-105 md:scale-100 md:text-lg">
-		&copy; {currentYear}&nbsp;<a
-			class="underline-offset-4 hover:underline"
-			data-sveltekit-reload
-			href="/">Free Cattle, Inc.</a
-		>
+	<div class="mb-4 text-[1.05rem] text-white md:text-lg">
+		&copy; {currentYear}
+		<a data-sveltekit-reload href="/">
+			<span class="underline-animation"
+				>Free Cattle, Inc.
+				<span class="underline-span"></span>
+			</span>
+		</a>
 	</div>
 	<div class="flex flex-row mb-4">
 		<a
-			class="text-base md:text-lg text-white scale-105 md:scale-100 underline-offset-4 hover:underline px-[1.125rem] md:px-6"
 			data-sveltekit-reload
 			href="/terms"
+			class="text-[1.05rem] md:text-lg text-white px-[1.125rem] md:px-6"
 		>
-			<span class="mobile">Terms</span>
-			<span class="desktop">Terms of Service</span>
+			<span class="underline-animation">
+				<span class="mobile">Terms</span>
+				<span class="desktop">Terms of Service</span>
+				<span class="underline-span"></span>
+			</span>
 		</a>
 		<a
-			class="text-base md:text-lg text-white scale-105 md:scale-100 underline-offset-4 hover:underline px-[1.125rem] md:px-6"
 			data-sveltekit-reload
 			href="/privacy"
+			class="text-[1.05rem] md:text-lg text-white px-[1.125rem] md:px-6"
 		>
-			<span class="mobile">Privacy</span>
-			<span class="desktop">Privacy Policy</span>
+			<span class="underline-animation">
+				<span class="mobile">Privacy</span>
+				<span class="desktop">Privacy Policy</span>
+				<span class="underline-span"></span>
+			</span>
 		</a>
 	</div>
 </footer>
 
-<style>
+<style lang="postcss">
 	@media (min-width: 768px) {
 		.desktop {
 			display: block;
@@ -49,5 +57,27 @@
 		.mobile {
 			display: block;
 		}
+	}
+
+	.underline-animation {
+		position: relative;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	.underline-span {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 1px;
+		background-color: white;
+		opacity: 0;
+		transition: opacity 0.2s linear;
+		pointer-events: none;
+	}
+
+	.underline-animation:hover .underline-span {
+		opacity: 1;
 	}
 </style>
