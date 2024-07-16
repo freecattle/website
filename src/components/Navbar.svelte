@@ -83,7 +83,7 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	{#if navActive}
 		<div
-			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-50 backdrop-blur-sm z-30"
+			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-50 backdrop-blur-md z-30"
 			on:click={handleOverlayClick}
 			transition:fade={{ duration: 300, easing: cubicOut }}
 		/>
