@@ -17,6 +17,9 @@ importers:
       jsdom:
         specifier: ^24.1.0
         version: 24.1.0
+      prettier-plugin-svelte:
+        specifier: ^3.2.5
+        version: 3.2.5(prettier@3.3.2)(svelte@4.2.18)
     devDependencies:
       '@sveltejs/adapter-node':
         specifier: ^5.2.0
@@ -1266,6 +1269,12 @@ packages:
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+
+  prettier-plugin-svelte@3.2.5:
+    resolution: {integrity: sha512-vP/M/Goc8z4iVIvrwXwbrYVjJgA0Hf8PO1G4LBh/ocSt6vUP6sLvyu9F3ABEGr+dbKyxZjEKLkeFsWy/yYl0HQ==}
+    peerDependencies:
+      prettier: ^3.0.0
+      svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
 
   prettier@3.3.2:
     resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
@@ -2798,6 +2807,11 @@ snapshots:
       source-map-js: 1.2.0
 
   prelude-ls@1.2.1: {}
+
+  prettier-plugin-svelte@3.2.5(prettier@3.3.2)(svelte@4.2.18):
+    dependencies:
+      prettier: 3.3.2
+      svelte: 4.2.18
 
   prettier@3.3.2: {}
 
