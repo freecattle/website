@@ -23,10 +23,10 @@
 			<a
 				class="flex w-full py-4 px-2 md:py-6 md:px-4"
 				href="mailto:info@freecattle.com"
-				in:fly={{ y: 50, duration: 500, delay: 200 }}
+				in:fly={{ y: 50, duration: 500, delay: 150 }}
 			>
 				<span
-					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#121215] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
+					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#121215] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-150 ease-linear hover:opacity-90 btn"
 				>
 					Contact →
 				</span>
@@ -36,10 +36,10 @@
 				class="flex w-full py-4 px-2 md:py-6 md:px-4"
 				href="https://github.com/freecattle"
 				target="_blank"
-				in:fly={{ y: 50, duration: 500, delay: 400 }}
+				in:fly={{ y: 50, duration: 500, delay: 300 }}
 			>
 				<span
-					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-white bg-[#3c46ff] rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
+					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-white bg-[#3c46ff] rounded-full lg:h-40 lg:text-5xl transition-opacity duration-150 ease-linear hover:opacity-90 btn"
 				>
 					GitHub →
 				</span>

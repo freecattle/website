@@ -21,7 +21,7 @@
 		</h1>
 		<div
 			class="flex flex-wrap justify-around w-full py-4 text-lg leading-8 text-center text-white md:py-6 md:px-4"
-			in:fly={{ y: 50, duration: 500, delay: 200 }}
+			in:fly={{ y: 50, duration: 500, delay: 150 }}
 		>
 			<p>
 				Free Cattle is a Canada-based software company that specializes in the development and

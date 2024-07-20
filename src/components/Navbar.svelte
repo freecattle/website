@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
+	import { cubicInOut } from 'svelte/easing';
 
 	let navActive = false;
 	let currentPath = '';
@@ -31,17 +31,17 @@
 		aria-label="Menu"
 	>
 		<span
-			class="block w-6 h-0.5 mb-1.5 bg-white transition-all transform duration-300 ease-out {navActive
+			class="block w-6 h-0.5 mb-1.5 bg-white transition-all transform duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
 				? 'rotate-45 translate-y-2'
 				: ''}"
 		/>
 		<span
-			class="block w-6 h-0.5 mb-1.5 bg-white transition-all duration-300 ease-out {navActive
-				? 'opacity-0'
-				: 'opacity-100'}"
+			class="block w-6 h-0.5 mb-1.5 bg-white transition-all duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
+				? 'opacity-0 scale-50'
+				: 'opacity-100 scale-100'}"
 		/>
 		<span
-			class="block w-6 h-0.5 bg-white transition-all transform duration-300 ease-out {navActive
+			class="block w-6 h-0.5 bg-white transition-all transform duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
 				? '-rotate-45 -translate-y-2'
 				: ''}"
 		/>
@@ -49,7 +49,7 @@
 	{#if navActive}
 		<nav
 			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#1d1d1b] z-40"
-			transition:fly={{ y: -200, duration: 500, easing: cubicOut }}
+			transition:fly={{ y: -200, duration: 500, easing: cubicInOut }}
 		>
 			<ul class="flex flex-col text-center text-[1.4rem]">
 				<li class="flex items-center justify-center py-6">
@@ -85,7 +85,7 @@
 		<div
 			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-50 backdrop-blur-md z-30"
 			on:click={handleOverlayClick}
-			transition:fade={{ duration: 300, easing: cubicOut }}
+			transition:fade={{ duration: 300, easing: cubicInOut }}
 		/>
 	{/if}
 	<nav class="hidden md:flex {navActive ? 'translate-y-full' : '-translate-y-0'}">
@@ -116,7 +116,7 @@
 			</li>
 			<li class="flex items-center justify-center px-6">
 				<div
-					class="button-wrapper flex px-4 py-1 font-medium text-base text-black bg-white border border-white rounded-full transition-opacity duration-200 ease-linear hover:opacity-90"
+					class="button-wrapper flex px-4 py-1 font-medium text-base text-black bg-white border border-white rounded-full transition-opacity duration-150 ease-linear hover:opacity-90"
 				>
 					<a href="mailto:info@freecattle.com" class="button relative">
 						<span class="default-text">Contact</span>
