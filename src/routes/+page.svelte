@@ -10,14 +10,14 @@
 	<meta name="application-name" content="Free Cattle" />
 	<link rel="author" href="https://freecattle.com" />
 	<meta name="author" content="Free Cattle" />
-	<meta name="theme-color" content="#121215" />
+	<meta name="theme-color" content="#ffffff" />
 	<meta name="creator" content="Free Cattle" />
 	<meta name="og:image" content="https://freecattle.com/og.png" />
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-title" content="Free Cattle" />
 	<link href="/favicons/apple-touch-icon.png" rel="apple-touch-startup-image" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="[#121215]-translucent" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
 	<link rel="manifest" href="/manifest.json" />
 	<meta property="og:title" content="Free Cattle" />
 	<meta property="og:description" content="The official corporate site of Free Cattle, Inc." />

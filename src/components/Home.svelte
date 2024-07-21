@@ -26,7 +26,7 @@
 				in:fly={{ y: 50, duration: 500, delay: 150 }}
 			>
 				<span
-					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#121215] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-150 ease-linear hover:opacity-90 btn"
+					class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#080808] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-150 ease-linear hover:opacity-90 btn"
 				>
 					Contact →
 				</span>

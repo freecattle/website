@@ -48,7 +48,7 @@
 	</button>
 	{#if navActive}
 		<nav
-			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#1d1d1b] z-40"
+			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#171717] z-40"
 			transition:fly={{ y: -200, duration: 500, easing: cubicInOut }}
 		>
 			<ul class="flex flex-col text-center text-[1.4rem]">
