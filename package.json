@@ -17,8 +17,8 @@
 		"@sveltejs/kit": "^2.5.18",
 		"@types/dompurify": "^3.0.5",
 		"@types/jsdom": "^21.1.7",
-		"@typescript-eslint/eslint-plugin": "^7.16.1",
-		"@typescript-eslint/parser": "^7.16.1",
+		"@typescript-eslint/eslint-plugin": "^7.17.0",
+		"@typescript-eslint/parser": "^7.17.0",
 		"autoprefixer": "^10.4.19",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -28,14 +28,14 @@
 		"svelte-check": "^3.8.4",
 		"tailwindcss": "^3.4.6",
 		"tslib": "^2.6.3",
-		"typescript": "^5.5.3",
+		"typescript": "^5.5.4",
 		"vite": "^5.3.4"
 	},
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"dompurify": "^3.1.6",
-		"jsdom": "^24.1.0",
+		"jsdom": "^24.1.1",
 		"prettier-plugin-svelte": "^3.2.6"
 	}
 }

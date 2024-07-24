@@ -7,12 +7,7 @@
 >
 	<div class="mb-4 text-[1.05rem] text-white md:text-lg">
 		&copy; {currentYear}
-		<a data-sveltekit-reload href="/">
-			<span class="underline-animation"
-				>Free Cattle, Inc.
-				<span class="underline-span"></span>
-			</span>
-		</a>
+		Free Cattle, Inc.
 	</div>
 	<div class="flex flex-row mb-4">
 		<a
@@ -73,7 +68,7 @@
 		height: 1px;
 		background-color: white;
 		opacity: 0;
-		transition: opacity 0.2s linear;
+		transition: opacity 0.15s linear;
 		pointer-events: none;
 	}
 

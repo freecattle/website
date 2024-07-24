@@ -31,17 +31,17 @@
 		aria-label="Menu"
 	>
 		<span
-			class="block w-6 h-0.5 mb-1.5 bg-white transition-all transform duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
+			class="block w-6 h-0.5 mb-1.5 bg-white transition-all transform duration-[400ms] ease-[cubic-bezier(.6,0,.4,1)] {navActive
 				? 'rotate-45 translate-y-2'
 				: ''}"
 		/>
 		<span
-			class="block w-6 h-0.5 mb-1.5 bg-white transition-all duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
+			class="block w-6 h-0.5 mb-1.5 bg-white transition-all duration-[400ms] ease-[cubic-bezier(.6,0,.4,1)] {navActive
 				? 'opacity-0 scale-50'
 				: 'opacity-100 scale-100'}"
 		/>
 		<span
-			class="block w-6 h-0.5 bg-white transition-all transform duration-500 ease-[cubic-bezier(.6,0,.4,1)] {navActive
+			class="block w-6 h-0.5 bg-white transition-all transform duration-[400ms] ease-[cubic-bezier(.6,0,.4,1)] {navActive
 				? '-rotate-45 -translate-y-2'
 				: ''}"
 		/>
@@ -49,14 +49,14 @@
 	{#if navActive}
 		<nav
 			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#171717] z-40"
-			transition:fly={{ y: -200, duration: 500, easing: cubicInOut }}
+			transition:fly={{ y: -200, duration: 400, easing: cubicInOut }}
 		>
 			<ul class="flex flex-col text-center text-[1.4rem]">
 				<li class="flex items-center justify-center py-6">
 					<a
 						class="font-semibold text-[#e8e7ed] {currentPath === '/'
 							? 'selected'
-							: 'not-selected'} transition-opacity duration-200 ease-linear"
+							: 'not-selected'} transition-opacity duration-150 ease-linear"
 						data-sveltekit-reload
 						href="/">Home</a
 					>
@@ -65,14 +65,14 @@
 					<a
 						class="font-semibold text-[#e8e7ed] {currentPath === '/about'
 							? 'selected'
-							: 'not-selected'} transition-opacity duration-200 ease-linear"
+							: 'not-selected'} transition-opacity duration-150 ease-linear"
 						data-sveltekit-reload
 						href="/about">About</a
 					>
 				</li>
 				<li class="flex items-center justify-center py-6">
 					<a
-						class="font-semibold text-[#e8e7ed] not-selected transition-opacity duration-200 ease-linear"
+						class="font-semibold text-[#e8e7ed] not-selected transition-opacity duration-150 ease-linear"
 						href="mailto:info@freecattle.com">Contact</a
 					>
 				</li>
@@ -83,40 +83,40 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	{#if navActive}
 		<div
-			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-50 backdrop-blur-md z-30"
+			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-30 backdrop-blur z-30"
 			on:click={handleOverlayClick}
-			transition:fade={{ duration: 300, easing: cubicInOut }}
+			transition:fade={{ duration: 400, easing: cubicInOut }}
 		/>
 	{/if}
 	<nav class="hidden md:flex {navActive ? 'translate-y-full' : '-translate-y-0'}">
 		<ul class="flex">
 			<li class="flex items-center justify-center px-6">
 				<div
-					class="group flex px-4 py-1 font-medium text-base text-white border border-transparent rounded-full transition-opacity duration-200 ease-linear"
+					class="group flex px-4 py-1 font-medium text-base text-white border border-transparent rounded-full"
 				>
 					<a data-sveltekit-reload href="/" class="relative">
 						Home
 						<span
-							class="absolute bottom-0 left-0 w-full h-[1px] bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-linear"
+							class="absolute bottom-0 left-0 w-full h-[1px] bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-linear"
 						></span>
 					</a>
 				</div>
 			</li>
 			<li class="flex items-center justify-center px-6">
 				<div
-					class="group flex px-4 py-1 font-medium text-base text-white border border-transparent rounded-full transition-opacity duration-200 ease-linear"
+					class="group flex px-4 py-1 font-medium text-base text-white border border-transparent rounded-full"
 				>
 					<a data-sveltekit-reload href="/about" class="relative">
 						About
 						<span
-							class="absolute bottom-0 left-0 w-full h-[1px] bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-200 ease-linear"
+							class="absolute bottom-0 left-0 w-full h-[1px] bg-white opacity-0 group-hover:opacity-100 transition-opacity duration-150 ease-linear"
 						></span>
 					</a>
 				</div>
 			</li>
 			<li class="flex items-center justify-center px-6">
 				<div
-					class="button-wrapper flex px-4 py-1 font-medium text-base text-black bg-white border border-white rounded-full transition-opacity duration-150 ease-linear hover:opacity-90"
+					class="button-wrapper flex px-4 py-1 font-medium text-base text-black bg-white border border-white rounded-full transition-opacity duration-200 ease-linear hover:opacity-90"
 				>
 					<a href="mailto:info@freecattle.com" class="button relative">
 						<span class="default-text">Contact</span>
@@ -140,7 +140,6 @@
 		opacity: 0.5;
 	}
 
-	.not-selected:focus,
 	.not-selected:hover {
 		opacity: 1;
 	}
