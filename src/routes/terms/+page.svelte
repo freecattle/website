@@ -6,15 +6,15 @@
 
 <svelte:head>
 	<title>Terms of Service – Free Cattle</title>
-	<meta name="description" content="Terms of service for Free Cattle, Inc." />
+	<meta name="description" content="Free Cattle, Inc. Terms of Service" />
 	<meta name="author" content="Free Cattle, Inc." />
 	<meta name="theme-color" content="#111827" />
 	<meta property="og:title" content="Terms of Service – Free Cattle" />
-	<meta property="og:description" content="Terms of service for Free Cattle, Inc." />
+	<meta property="og:description" content="Free Cattle, Inc. Terms of Service" />
 	<meta property="og:url" content="https://freecattle.com/terms" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Terms of Service – Free Cattle" />
-	<meta name="twitter:description" content="Terms of service for Free Cattle, Inc." />
+	<meta name="twitter:description" content="Free Cattle, Inc. Terms of Service" />
 	<link rel="shortcut icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicons/favicon-32x32.png" sizes="32x32" />

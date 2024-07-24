@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Free Cattle</title>
-	<meta name="description" content="The official corporate site of Free Cattle, Inc." />
+	<meta name="description" content="Official website of Free Cattle, Inc." />
 	<meta name="application-name" content="Free Cattle" />
 	<link rel="author" href="https://freecattle.com" />
 	<meta name="author" content="Free Cattle" />
@@ -20,7 +20,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
 	<link rel="manifest" href="/manifest.json" />
 	<meta property="og:title" content="Free Cattle" />
-	<meta property="og:description" content="The official corporate site of Free Cattle, Inc." />
+	<meta property="og:description" content="Official website of Free Cattle, Inc." />
 	<meta property="og:url" content="https://freecattle.com/" />
 	<meta property="og:image" content="https://freecattle.com/og.png" />
 	<meta property="og:image:alt" content="Free Cattle" />
@@ -28,7 +28,7 @@
 	<meta property="og:image:height" content="512" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Free Cattle" />
-	<meta name="twitter:description" content="The official corporate site of Free Cattle, Inc." />
+	<meta name="twitter:description" content="Official website of Free Cattle, Inc." />
 	<meta name="twitter:image" content="https://freecattle.com/og.png" />
 	<meta name="twitter:image:alt" content="Free Cattle" />
 	<meta name="twitter:image:width" content="512" />

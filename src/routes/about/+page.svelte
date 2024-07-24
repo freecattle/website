@@ -6,15 +6,15 @@
 
 <svelte:head>
 	<title>About – Free Cattle</title>
-	<meta name="description" content="About Free Cattle, Inc.: company overview." />
+	<meta name="description" content="Overview of Free Cattle, Inc." />
 	<meta name="author" content="Free Cattle, Inc." />
 	<meta name="theme-color" content="#ffffff" />
 	<meta property="og:title" content="About – Free Cattle" />
-	<meta property="og:description" content="About Free Cattle, Inc.: company overview." />
+	<meta property="og:description" content="Overview of Free Cattle, Inc." />
 	<meta property="og:url" content="https://freecattle.com/about" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="About – Free Cattle" />
-	<meta name="twitter:description" content="About Free Cattle, Inc.: company overview." />
+	<meta name="twitter:description" content="Overview of Free Cattle, Inc." />
 	<link rel="shortcut icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicons/favicon-32x32.png" sizes="32x32" />
