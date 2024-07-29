@@ -73,7 +73,7 @@
 				<li class="flex items-center justify-center py-6">
 					<a
 						class="font-semibold text-[#e8e7ed] not-selected transition-opacity duration-150 ease-linear"
-						href="mailto:info@freecattle.com">Contact</a
+						href="mailto:contact@freecattle.com">Contact</a
 					>
 				</li>
 			</ul>
@@ -118,7 +118,7 @@
 				<div
 					class="button-wrapper flex px-4 py-1 font-medium text-base text-black bg-white border border-white rounded-full transition-opacity duration-200 ease-linear hover:opacity-90"
 				>
-					<a href="mailto:info@freecattle.com" class="button relative">
+					<a href="mailto:contact@freecattle.com" class="button relative">
 						<span class="default-text">Contact</span>
 						<span
 							class="hover-text absolute left-0 top-full w-full text-center transition-transform duration-200 ease-out"
