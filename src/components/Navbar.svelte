@@ -25,9 +25,15 @@
 	const toggleBodyScroll = (disableScroll: boolean) => {
 		if (disableScroll) {
 			document.body.style.overflow = 'hidden';
+			document.body.addEventListener('touchmove', preventTouchScroll, { passive: false });
 		} else {
 			document.body.style.overflow = '';
+			document.body.removeEventListener('touchmove', preventTouchScroll);
 		}
+	};
+
+	const preventTouchScroll = (event: TouchEvent) => {
+		event.preventDefault();
 	};
 </script>
 
