@@ -12,11 +12,21 @@
 
 	const handleMenuButtonClick = () => {
 		navActive = !navActive;
+		toggleBodyScroll(navActive);
 	};
 
 	const handleOverlayClick = () => {
 		if (navActive) {
 			navActive = false;
+			toggleBodyScroll(navActive);
+		}
+	};
+
+	const toggleBodyScroll = (disableScroll: boolean) => {
+		if (disableScroll) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
 		}
 	};
 </script>
@@ -83,7 +93,7 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	{#if navActive}
 		<div
-			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-30 backdrop-blur z-30"
+			class="fixed top-0 left-0 w-full h-full bg-[#080808] bg-opacity-30 backdrop-blur-sm z-30"
 			on:click={handleOverlayClick}
 			transition:fade={{ duration: 400, easing: cubicInOut }}
 		/>
