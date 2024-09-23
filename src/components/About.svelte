@@ -1,5 +1,5 @@
 <main
-	class="flex-1 flex flex-col justify-center items-center mx-auto max-w-4xl px-8 pb-6 md:px-4 md:pb-6"
+	class="flex-1 flex flex-col items-center justify-center mx-auto max-w-4xl px-8 pb-6 md:px-4 md:pb-6"
 >
 	<h1 class="pt-8 text-2xl font-semibold text-center text-white md:text-3xl">About Free Cattle</h1>
 	<div

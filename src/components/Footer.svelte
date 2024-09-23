@@ -12,23 +12,23 @@
 	<div class="flex flex-row mb-4">
 		<a
 			data-sveltekit-reload
-			href="/terms"
-			class="text-[1.05rem] md:text-lg text-white px-[1.125rem] md:px-6"
-		>
-			<span class="underline-animation">
-				<span class="mobile">Terms</span>
-				<span class="desktop">Terms of Service</span>
-				<span class="underline-span"></span>
-			</span>
-		</a>
-		<a
-			data-sveltekit-reload
 			href="/privacy"
 			class="text-[1.05rem] md:text-lg text-white px-[1.125rem] md:px-6"
 		>
 			<span class="underline-animation">
 				<span class="mobile">Privacy</span>
 				<span class="desktop">Privacy Policy</span>
+				<span class="underline-span"></span>
+			</span>
+		</a>
+		<a
+			data-sveltekit-reload
+			href="/terms"
+			class="text-[1.05rem] md:text-lg text-white px-[1.125rem] md:px-6"
+		>
+			<span class="underline-animation">
+				<span class="mobile">Terms</span>
+				<span class="desktop">Terms of Use</span>
 				<span class="underline-span"></span>
 			</span>
 		</a>
