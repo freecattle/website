@@ -8,7 +8,7 @@
 		<p>
 			Free Cattle is a Canada-based software company that specializes in the development and
 			distribution of open-source and proprietary software. As a corporate entity, Free Cattle
-			possesses corporate personhood, and maintains and operates its software projects while being
+			possesses corporate personhood and maintains and operates its software projects while being
 			responsible for its legal and financial obligations. Free Cattle also provides its open-source
 			software under permissive licenses, making it available for others to use.
 		</p>
