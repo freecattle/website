@@ -17,7 +17,7 @@
 		>
 			<span class="underline-animation">
 				<span class="mobile">Privacy</span>
-				<span class="desktop">Privacy Policy</span>
+				<span class="desktop">Privacy policy</span>
 				<span class="underline-span"></span>
 			</span>
 		</a>
@@ -28,7 +28,7 @@
 		>
 			<span class="underline-animation">
 				<span class="mobile">Terms</span>
-				<span class="desktop">Terms of Use</span>
+				<span class="desktop">Terms of use</span>
 				<span class="underline-span"></span>
 			</span>
 		</a>

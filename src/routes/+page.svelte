@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Free Cattle</title>
-	<meta name="description" content="Official website of Free Cattle, Inc." />
+	<meta name="description" content="Free Cattle, Inc." />
 	<meta name="application-name" content="Free Cattle" />
 	<link rel="author" href="https://freecattle.com" />
 	<meta name="author" content="Free Cattle" />
@@ -20,7 +20,7 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent" />
 	<link rel="manifest" href="/manifest.json" />
 	<meta property="og:title" content="Free Cattle" />
-	<meta property="og:description" content="Official website of Free Cattle, Inc." />
+	<meta property="og:description" content="Free Cattle, Inc." />
 	<meta property="og:url" content="https://freecattle.com/" />
 	<meta property="og:image" content="https://freecattle.com/og.png" />
 	<meta property="og:image:alt" content="Free Cattle" />
@@ -28,7 +28,7 @@
 	<meta property="og:image:height" content="512" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Free Cattle" />
-	<meta name="twitter:description" content="Official website of Free Cattle, Inc." />
+	<meta name="twitter:description" content="Free Cattle, Inc." />
 	<meta name="twitter:image" content="https://freecattle.com/og.png" />
 	<meta name="twitter:image:alt" content="Free Cattle" />
 	<meta name="twitter:image:width" content="512" />
@@ -38,7 +38,7 @@
 	<link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
 	<link rel="icon" href="/favicons/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" href="/favicons/favicon-16x16.png" sizes="16x16" />
-	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" sizes="180x180" />
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#ffffff" />
 	<meta property="og:type" content="website" />
 	<meta property="og:site_name" content="Free Cattle" />
 </svelte:head>
