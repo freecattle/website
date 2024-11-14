@@ -11,7 +11,7 @@
 	}
 
 	:global(.main-container) {
-		@apply mx-auto mt-4 max-w-5xl p-8 bg-slate-50 text-black;
+		@apply mx-auto mt-4 max-w-4xl p-8 bg-slate-50 text-black;
 	}
 
 	:global(.title) {
