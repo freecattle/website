@@ -5,15 +5,15 @@
 </script>
 
 <svelte:head>
-	<title>About – Free Cattle</title>
+	<title>About | Free Cattle</title>
 	<meta name="description" content="About Free Cattle" />
 	<meta name="author" content="Free Cattle, Inc." />
 	<meta name="theme-color" content="#ffffff" />
-	<meta property="og:title" content="About – Free Cattle" />
+	<meta property="og:title" content="About | Free Cattle" />
 	<meta property="og:description" content="About Free Cattle" />
 	<meta property="og:url" content="https://freecattle.com/about" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="About – Free Cattle" />
+	<meta name="twitter:title" content="About | Free Cattle" />
 	<meta name="twitter:description" content="About Free Cattle" />
 	<link rel="shortcut icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.svg" />

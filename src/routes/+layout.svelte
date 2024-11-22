@@ -7,6 +7,6 @@
 
 <style lang="postcss">
 	:global(body) {
-		@apply bg-[#121212];
+		@apply bg-[#0e0f11];
 	}
 </style>

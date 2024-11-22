@@ -67,7 +67,7 @@
 	</button>
 	{#if navActive}
 		<nav
-			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#1d1d1d] z-40"
+			class="nav-mobile-menu fixed top-0 left-0 flex items-center justify-center w-full bg-[#1a1b1e] z-40"
 			transition:fly={{ y: -200, duration: 400, easing: cubicInOut }}
 		>
 			<ul class="flex flex-col text-center text-[1.4rem]">
@@ -103,7 +103,7 @@
 	{#if navActive}
 		<!-- svelte-ignore element_invalid_self_closing_tag -->
 		<div
-			class="fixed top-0 left-0 w-full h-full bg-[#121212] bg-opacity-30 backdrop-blur-sm z-30"
+			class="fixed top-0 left-0 w-full h-full bg-[#0e0f11] bg-opacity-30 backdrop-blur-sm z-30"
 			on:click={handleOverlayClick}
 			transition:fade={{ duration: 400, easing: cubicInOut }}
 		/>

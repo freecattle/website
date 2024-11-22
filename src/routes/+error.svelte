@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="flex flex-col items-center justify-center bg-[#121212] min-h-screen py-20 px-4 md:px-10"
+	class="flex flex-col items-center justify-center bg-[#0e0f11] min-h-screen py-20 px-4 md:px-10"
 >
 	<h1 class="mb-4 text-center text-5xl md:text-7xl font-semibold text-white" aria-live="assertive">
 		{$page.status}

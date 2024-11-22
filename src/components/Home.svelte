@@ -9,7 +9,7 @@
 	<div class="flex flex-col md:flex-row">
 		<a class="flex w-full py-4 px-2 md:py-6 md:px-4" href="mailto:contact@freecattle.com">
 			<span
-				class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#121212] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
+				class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-[#0e0f11] bg-white rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
 			>
 				Contact →
 			</span>
@@ -21,7 +21,7 @@
 			target="_blank"
 		>
 			<span
-				class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-white bg-[#3c46ff] rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
+				class="flex items-center justify-left w-full h-32 px-16 text-4xl font-medium text-white bg-[#2f51ff] rounded-full lg:h-40 lg:text-5xl transition-opacity duration-200 ease-linear hover:opacity-90 btn"
 			>
 				GitHub →
 			</span>

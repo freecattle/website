@@ -5,15 +5,15 @@
 </script>
 
 <svelte:head>
-	<title>Terms of use – Free Cattle</title>
+	<title>Terms of use | Free Cattle</title>
 	<meta name="description" content="Terms of use" />
 	<meta name="author" content="Free Cattle, Inc." />
 	<meta name="theme-color" content="#ffffff" />
-	<meta property="og:title" content="Terms of use – Free Cattle" />
+	<meta property="og:title" content="Terms of use | Free Cattle" />
 	<meta property="og:description" content="Terms of use" />
 	<meta property="og:url" content="https://freecattle.com/terms" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Terms of use – Free Cattle" />
+	<meta name="twitter:title" content="Terms of use | Free Cattle" />
 	<meta name="twitter:description" content="Terms of use" />
 	<link rel="shortcut icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.svg" />

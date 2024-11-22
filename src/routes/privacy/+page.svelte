@@ -5,15 +5,15 @@
 </script>
 
 <svelte:head>
-	<title>Privacy policy – Free Cattle</title>
+	<title>Privacy policy | Free Cattle</title>
 	<meta name="description" content="Privacy policy" />
 	<meta name="author" content="Free Cattle, Inc." />
 	<meta name="theme-color" content="#ffffff" />
-	<meta property="og:title" content="Privacy policy – Free Cattle" />
+	<meta property="og:title" content="Privacy policy | Free Cattle" />
 	<meta property="og:description" content="Privacy policy" />
 	<meta property="og:url" content="https://freecattle.com/privacy" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Privacy policy – Free Cattle" />
+	<meta name="twitter:title" content="Privacy policy | Free Cattle" />
 	<meta name="twitter:description" content="Privacy policy" />
 	<link rel="shortcut icon" href="/favicon.svg" />
 	<link rel="icon" href="/favicon.svg" />
