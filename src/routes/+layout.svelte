@@ -3,7 +3,9 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="flex flex-col h-screen w-full">
+	<slot />
+</div>
 
 <style lang="postcss">
 	:global(body) {
