@@ -12,31 +12,16 @@
 	--font-mono: Menlo, Courier, monospace;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	outline: none;
-	box-sizing: border-box;
-}
-
 html {
-	height: 100%;
+	-webkit-tap-highlight-color: transparent;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
-	-webkit-text-size-adjust: 100%;
-	line-height: 1.5;
-	-moz-tab-size: 4;
-	-webkit-tap-highlight-color: transparent;
-	tab-size: 4;
-	font-feature-settings: normal;
-	font-variation-settings: normal;
 }
 
 body {
-	margin: auto;
-	padding: 0;
-	max-width: 1500px;
 	height: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
 	font-family: var(--font-sans-serif);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

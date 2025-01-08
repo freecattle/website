@@ -3,7 +3,7 @@
 	import '../../app.css';
 </script>
 
-<div class="flex flex-col h-screen w-full">
+<div class="flex flex-col h-full w-full">
 	<slot />
 </div>
 
@@ -13,7 +13,7 @@
 	}
 
 	:global(.main-container) {
-		@apply mx-auto mt-4 max-w-4xl p-8 bg-white text-[#1a1d20];
+		@apply mx-auto mt-4 max-w-3xl p-8 bg-white text-[#444444];
 	}
 
 	:global(.title) {
@@ -21,7 +21,7 @@
 	}
 
 	:global(.last-updated) {
-		@apply text-sm font-bold text-[#656d78] mb-4;
+		@apply text-sm font-bold text-[#777777] mb-4;
 	}
 
 	:global(.section-title) {
@@ -33,6 +33,6 @@
 	}
 
 	:global(.link) {
-		@apply text-[#0f4bf1] underline-offset-4 hover:underline;
+		@apply text-[#0077cc] underline-offset-4 hover:text-[#005599] hover:underline;
 	}
 </style>

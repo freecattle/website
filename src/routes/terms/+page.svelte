@@ -24,6 +24,6 @@
 	<meta property="og:site_name" content="Free Cattle, Inc." />
 </svelte:head>
 
-<div class="flex flex-col bg-white h-full w-screen">
+<div class="flex flex-col bg-white h-full w-full">
 	{@html data.props.safeHtmlContent}
 </div>
